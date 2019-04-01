@@ -1,7 +1,7 @@
 # Tomato_RNAseq
 ```
-#E_rep1	Sample_4-E1	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers wild type
-#E_rep2	Sample_5-E2	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers wild type
+E_rep1	Sample_4-E1	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers wild type
+E_rep2	Sample_5-E2	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers wild type
 E_rep3	Sample_6-E3	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers wild type
 C_rep1	Sample_1-C1	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers (MSH1 mutant) typical dr   with transgene
 C_rep2	Sample_2-C2	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers (MSH1 mutant) typical dr   with transgene
