@@ -6,3 +6,12 @@ GTF_FILE=/data/users/xzy50/ITAG3.0_gene_models.gff
 
 mkdir -p ${GENOME_INDEX_DIR}
 STAR --runMode genomeGenerate --runThreadN ${THREADS} --genomeDir ${GENOME_INDEX_DIR} --genomeFastaFiles ${FASTA_FILES} --sjdbGTFfile ${GTF_FILE}
+
+
+
+
+
+
+
+
+
