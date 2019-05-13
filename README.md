@@ -15,10 +15,10 @@ F_rep3	Sample_9-F3	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutge
 	RutgersWtP1	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers wild type
 	RutgersWtP2	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers wild type
 	RutgersWtP3	apical meristem 	Solanum lycopersicum,	apical meristem 	Rutgers wild type
-	RRCtlP1	apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  wt control  Gen1 
-	RRCtlP2	apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  wt control  Gen1 
-	RRCtlP3	apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  wt control  Gen1 
-	RDrP1	apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  DR   Gen 1
-	RDrP2	apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  DR   Gen 1
-	RDrP3	apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  DR   Gen 1
+	RRCtlP1	        apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  wt control  Gen1 
+	RRCtlP2	        apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  wt control  Gen1 
+	RRCtlP3	        apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  wt control  Gen1 
+	RDrP1	        apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  DR   Gen 1
+	RDrP2	        apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  DR   Gen 1
+	RDrP3	        apical meristem 	Solanum lycopersicum,	apical meristem 	grafting  wt on  DR   Gen 1
 ```
