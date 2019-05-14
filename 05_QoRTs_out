@@ -1,0 +1,22 @@
+#!/bin/bash
+GTF_FILE=/data/genomes/TAIR10/Arabidopsis_thaliana.TAIR10.37.gtf
+OUT_DIR=./QoRTs/
+BASE_DIR=./
+
+#SAMPLES=`find ${BASE_DIR} -name *fq | awk -F"/" '{print $4}' | awk -F"-" '{print $1}' | sort -u`
+SAMPLES=`find ${BASE_DIR} -name *fastq | awk -F"/" '{print $4}' | awk -F"-" '{print $1}' | sort -u`
+
+for SAMPLE in ${SAMPLES}; do
+
+    #echo "mkdir -p ${OUT_DIR}/${SAMPLE}/"
+#   ts QoRTs QC --stranded --minMAPQ 25 --dropChrom 'Mt','Pt' --runFunctions GeneCalcs,JunctionCalcs,annotatedSpliceExonCounts,writeKnownSplices,writeNovelSplices,writeSpliceExon,writeGeneCounts,writeDEXSeq,writeGeneBody,writeDESeq ./rum_results/${SAMPLE}/RUM.sam ${GTF_FILE}  ${OUT_DIR}/${SAMPLE}/
+   echo "QoRTs QC --stranded --minMAPQ 25 --dropChrom 'Mt','Pt' --runFunctions GeneCalcs,JunctionCalcs,annotatedSpliceExonCounts,writeKnownSplices,writeNovelSplices,writeSpliceExon,writeGeneCounts,writeDEXSeq,writeGeneBody,writeDESeq ./rum_output/${SAMPLE}/RUM.sam ${GTF_FILE}  ${OUT_DIR}/${SAMPLE}/"
+done
+
+
+#!/bin/bash
+GTF_FILE=/data/genomes/TAIR10/Arabidopsis_thaliana.TAIR10.37.gtf
+OUT_DIR=/data4/hsk13/QoRTs_out
+BASE_DIR=/data4/hsk13/STAR_align_out
+
+QoRTs QC --stranded --minMAPQ 25 --runFunctions GeneCalcs,JunctionCalcs,annotatedSpliceExonCounts,writeKnownSplices,writeNovelSplices,writeSpliceExon,writeGeneCounts,writeDEXSeq,writeGeneBody,writeDESeq ${BASE_DIR}/M-5-1/Aligned.sortedByCoord.out.bam ${GTF_FILE}  ${OUT_DIR}/M-5-1/
